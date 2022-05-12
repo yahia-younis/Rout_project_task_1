@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.cart-option {
+  width: 10%;
+  padding: 1rem;
+  height: 100%;
+}
+.cart-option img {
+  width: 70%;
+}
+.cart-view {
+  width: 90%;
+}
+.cart-option li {
+  margin-top: 2rem;
+}
+.cart-option a {
+  text-decoration: none;
+  color: #bdbdbd;
+  transition: 0.3s all;
+}
+.cart-option a:hover {
+  color: #0023FF;
+}
+.cart-view {
+  box-shadow: 2px 0px 2px 0px rgb(0 0 0 / 6%);
+}
+.product-info {
+  background-color: #F0F0F0;
+}
