@@ -1,64 +1,99 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </head>
 
-  <body>
-    <div class="row h-100 m-0">
-      
-      <div class="col-5 h-100 p-0 d-flex">
-        <!-- cart option (icons) -->
-        <div class="cart-option d-flex flex-column shadow">
-          <div class="d-flex flex-column align-items-center position-relative h-100">
-            <img src="img/nephos.svg" alt="logo" />
-            <ul class="d-flex flex-column align-content-center fs-5">
-              <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-              <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-              <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-              <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
-            </ul>
-            <a href="#" class="position-absolute bottom-0 fs-5"><i class="fa-solid fa-circle-user"></i></a>
-          </div>
-          <div></div>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/java scr.js"></script>
+</head>
+
+<body>
+  <div class="row h-100 m-0">
+
+    <div class="col-5 h-100 p-0 d-flex">
+      <!-- cart option (icons) -->
+      <div class="cart-option d-flex flex-column shadow">
+        <div class="d-flex flex-column align-items-center position-relative h-100">
+          <img src="img/nephos.svg" alt="logo" />
+          <ul class="d-flex flex-column align-content-center fs-5">
+            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+          </ul>
+          <a href="#" class="position-absolute bottom-0 fs-5"><i class="fa-solid fa-circle-user"></i></a>
         </div>
-        <!-- product image -->
-        <div class="cart-view">
-          <div class="panel-header">
-            <div class="likes">
-              <span>263</span>
-              <i class="fa-solid fa-heart"></i>
-            </div>
+        <div></div>
+      </div>
+      <!-- product image -->
+      <div class="cart-view">
+        <div class="panel-header">
+          <div class="likes">
+            <span>263</span>
+            <i class="fa-solid fa-heart"></i>
           </div>
-          <div class="product-image">
-            <img src="img/red-seat.png" alt="product">
+        </div>
+        <div class="product-image">
+          <img src="img/red-seat.png" alt="product">
+        </div>
+        <div class="product-actions">
+          <div class="zoom-buttons">
+            <i class="fa-solid fa-circle-plus"></i>
+            <i class="fa-solid fa-circle-minus"></i>
           </div>
-          <div class="product-actions">
-            <div class="zoom-buttons">
-              <i class="fa-solid fa-circle-plus"></i>
-              <i class="fa-solid fa-circle-minus"></i>
-            </div>
-            <div class="right-actions">
-              <span><i class="fa-solid fa-image active"></i></span>
-              <span><i class="fa-solid fa-bars"></i></span>
-              <span><i class="fa-solid fa-comment"></i></span>
-            </div>
+          <div class="right-actions">
+            <span><i class="fa-solid fa-image active"></i></span>
+            <span><i class="fa-solid fa-bars"></i></span>
+            <span><i class="fa-solid fa-comment"></i></span>
           </div>
         </div>
       </div>
-      <div class="col-7 h-100 p-0">
-        <!-- product info like price -->
-        <div class="product-info h-75">
+    </div>
+    <div class="col-7 h-100 p-0">
+      <!-- product info like price -->
+      <div class=" product-info h-75">
+        <div class="container">
+          <h1 class="of1">office</h1>
+          <h1 class="of">RED SEAT</h1>
+          <p class="of">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima autem, hic similique
+            necessitatibus quod esse inventore illo laborum sapiente voluptate facere pariatur, tenetur nam mollitia?
+          </p>
+          <div class="but">
+            <p class="of pr">price</p>
+            <div class="mm">
+              <p class="of num">$65.00 </p>
+              <p class=" numdel"> <del>$90.00</del> </p>
+              <select class="form-select form-select-sm mb-3 sel sek" aria-label=".form-select-lg example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="sel">
+                <fieldset data-quantity="">
+                  <legend> Change quantity</legend>
+                  <button type="button" onclick="sub()" title="Down" class="sub">Down</button><input value="0"
+                    type="number" id="number" name="quantity" pattern="[0-9]+"><button type="button" onclick="add()"
+                    title="Up" class="add">Up</button>
+                </fieldset>
+
+              </div>
+              <button type="button" class="btn btn-primary butt">Add to card  </button>
+
+              </form>
+            </div>
+          </div>
+
 
         </div>
         <!-- more product -->
         <div class="more-product">
-          
+
         </div>
       </div>
     </div>
+<<<<<<< HEAD
 
     <!-- ************************************************************* -->
 
@@ -85,3 +120,8 @@
     
   </body>
 </html>
+=======
+</body>
+
+</html>
+>>>>>>> f70a98dea795862a265d1f4ed9912254bb672e00
