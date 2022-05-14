@@ -103,8 +103,15 @@ ul {
   transition: 0.3s all;
 }
 .cart-option a:hover {
-  color: #0023FF;
+  color: #0023ff;
 }
 .product-info {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
+}
+.copyright {
+  background-color: red;
+}
+.copyright p,
+a {
+  color: #fff;
 }
